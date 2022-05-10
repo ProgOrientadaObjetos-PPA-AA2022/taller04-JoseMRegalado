@@ -37,7 +37,7 @@ public class Profesor {
     public void calcularSueldoTotal(){
         sueldototal = sueldobasico + (sueldobasico * 0.2);
     }
-    public void calcularPromedio(String n){
+    public void establecerCedula(String n){
         cedula = n;
     }
     
@@ -63,7 +63,7 @@ public class Profesor {
 
     @Override
     public String toString() {
-        String cadena = String.format("Estudiante:\n"
+        String cadena = String.format("Profesor:\n"
         + "Nombre: %s\nApellido: %s\n"
         + "Sueldo básico: %.2f \n"
         + "Sueldo total: %.2f \n"
